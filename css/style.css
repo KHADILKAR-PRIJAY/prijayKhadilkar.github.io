@@ -127,6 +127,7 @@ a:focus {
   right: 15px;
   bottom: 15px;
   z-index: 9;
+  background-color: #ffffff;
 }
 
 .back-to-top i {
@@ -212,7 +213,9 @@ a:focus {
 
   .navbar-light .navbar-nav .nav-link:hover,
   .navbar-light .navbar-nav .nav-link.active {
-    color: #111111;
+    /* color: #111111; */
+    /* color: #ffffff; */
+    color: #de4758;
   }
 
   .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
@@ -1501,6 +1504,8 @@ a:focus {
   position: relative;
   margin-top: 45px;
   background: #ef233c;
+  /* background: linear-gradient(rgba(239, 35, 60, 0.95),rgba(23, 5, 86, 0.95)),
+    url(../img/hero-bg.jpg); */
 }
 
 .footer .container-fluid {
